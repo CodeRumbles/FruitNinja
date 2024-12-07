@@ -6,6 +6,7 @@
     <title>Unity WebGL Player | SliceMaster</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -57,11 +58,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/13.loader.js";
+      var loaderUrl = buildUrl + "/15.loader.js";
       var config = {
-        dataUrl: buildUrl + "/13.data.unityweb",
-        frameworkUrl: buildUrl + "/13.framework.js.unityweb",
-        codeUrl: buildUrl + "/13.wasm.unityweb",
+        dataUrl: buildUrl + "/15.data.unityweb",
+        frameworkUrl: buildUrl + "/15.framework.js.unityweb",
+        codeUrl: buildUrl + "/15.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "AurianInteractive",
         productName: "SliceMaster",
